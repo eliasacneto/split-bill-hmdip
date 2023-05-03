@@ -41,6 +41,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#F5F7F9",
     marginLeft: "5%",
     marginRight: "5%",
+    marginTop: "10%",
   },
   textHeader: {
     width: "90%",
