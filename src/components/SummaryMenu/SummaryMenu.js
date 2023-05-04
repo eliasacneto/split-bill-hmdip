@@ -1,5 +1,5 @@
 import React from "react";
-import { GreenCard, BillInfo, TextTotal, TextInput, Info, Total } from "./style";
+import { GreenCard, BillInfo, TextTotal, TextInput, Info, Total, DetailContainer } from "./style";
 import { View } from "react-native";
 
 export const SummaryMenu = () => {
@@ -11,7 +11,7 @@ export const SummaryMenu = () => {
                 <TextInput>R$160,00</TextInput>
             </Total>
 
-            <View>
+            <DetailContainer>
                 <Info>
                     <BillInfo>Comanda:</BillInfo>
                     <BillInfo>R$160,00</BillInfo>
@@ -26,7 +26,7 @@ export const SummaryMenu = () => {
                     <BillInfo>Pessoas:</BillInfo>
                     <BillInfo>7</BillInfo>
                 </Info>
-            </View>
+            </DetailContainer>
             
         </GreenCard>
     )

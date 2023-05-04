@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const GreenCard = styled.View`
     background-color: #00BA40;
     width: 95%;
-    height: 20%;
+    height: 15%;
     margin-top: 25px;
     border-radius: 10px;
     display: flex;
@@ -12,18 +12,9 @@ export const GreenCard = styled.View`
     align-items: center;
 `;
 
-export const BillInfo = styled.Text`
-    font-size: 16px;
-    color: #fff;
-    margin-top: 10px;
-`;
-
-export const TextTotal = styled.Text`
-    font-size: 22px;
-    text-transform: uppercase;
-    color: #FFF;
-    font-weight: 700;
-    text-align: center;
+export const Total = styled.View`
+    display: flex;
+    margin-left: 10px;
 `;
 
 export const TextInput = styled.Text`
@@ -34,6 +25,19 @@ export const TextInput = styled.Text`
     font-weight: 700;
     `;
 
+export const TextTotal = styled.Text`
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: 700;
+    text-align: center;
+`;
+
+export const BillInfo = styled.Text`
+    font-size: 16px;
+    color: #fff;
+`;
+
 export const Info = styled.View`
     display: flex;
     flex-direction: row;
@@ -41,7 +45,7 @@ export const Info = styled.View`
     margin-right: 20px;
 `;
 
-export const Total = styled.View`
+export const DetailContainer = styled.View`
     display: flex;
-    margin-left: 10px;
+    gap: 5px;
 `;
