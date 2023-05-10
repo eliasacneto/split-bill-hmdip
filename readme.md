@@ -35,7 +35,14 @@ Install dependencies
   npm install
 ```
 
-Start the server
+Start the server:
+Running on Expo App:
+
+```bash
+  npm run start
+```
+
+Running on your emulator
 
 ```bash
   npm run ios || npm run android
@@ -43,7 +50,7 @@ Start the server
 
 ## Techs ⚡️
 
-**Used:** [React Native](https://reactnative.dev/), [Expo](https://expo.dev/), [Figma](figma.com), [Styled Components](https://styled-components.com/)
+**Used:** [React Native](https://reactnative.dev/), [Expo](https://expo.dev/), [Figma](figma.com)
 
 **UI:** [React Native UI Kitten](https://akveo.github.io/react-native-ui-kitten/)
 
@@ -51,7 +58,6 @@ Start the server
 ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
 ## Authors
 
