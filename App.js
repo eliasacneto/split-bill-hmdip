@@ -1,21 +1,23 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
-import Splash from "./views/Splash/Splash";
-import Home from "./views/Home/Home";
+import { SafeAreaView, StyleSheet, Text, View } from "react-native";
+import HomeScreen from "./views/Home/HomeScreen";
+import React from "react";
+import * as eva from "@eva-design/eva";
+import { ApplicationProvider } from "@ui-kitten/components";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <StatusBar style='auto' />
-      <Home />
-    </View>
+    <ApplicationProvider {...eva} theme={eva.light}>
+      <SafeAreaView style={styles.container}>
+        <HomeScreen />
+      </SafeAreaView>
+    </ApplicationProvider>
   );
 }
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    color: "#FFF",
     alignItems: "center",
-    justifyContent: "center",
+    marginTop: 20,
   },
 });
