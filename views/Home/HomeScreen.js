@@ -11,7 +11,7 @@ import {
   SelectItem,
   Text,
 } from "@ui-kitten/components";
-import { Keyboard, StyleSheet } from "react-native";
+import { Keyboard, StyleSheet, ScrollView } from "react-native";
 import { TouchableWithoutFeedback } from "@ui-kitten/components/devsupport";
 
 const HomeScreen = () => {
@@ -24,7 +24,7 @@ const HomeScreen = () => {
       <Layout style={styles.tab} level='1'>
         <Text category='h4'>Quanto que eu devo pagar? 🤔</Text>
       </Layout>
-
+      <ScrollView>
       <Layout style={styles.container}>
         <TouchableWithoutFeedback onPress={Keyboard.dismiss} accessible={false}>
           <Layout>
@@ -98,6 +98,7 @@ const HomeScreen = () => {
       >
         Calcular valor
       </Button>
+      </ScrollView>
     </ApplicationProvider>
   );
 };
@@ -115,6 +116,7 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     alignItems: "center",
     textAlign: "center",
+    marginTop: 10
   },
   text: {
     color: "#434242",
